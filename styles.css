@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-one {
+    background-color: #1f2937;
+    padding: 0px 100px 0px 100px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.header-logo:hover {
+    cursor: pointer;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 15px;
+}
+
+.header-link:hover {
+    cursor: pointer;
+}
+
+.main-signup {
+    display: flex;
+    flex: auto;
+    height: 500px;
+    align-items: center;
+}
+
+.signup-left {
+    flex: 1;
+}
+
+.signup-right {
+    flex: 1;
+}
+
+.hero {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.bocchi {
+    max-width: 100%;
+    max-height: 100%;
+}
